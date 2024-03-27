@@ -1,0 +1,59 @@
+.header_one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .1s ease-in-out;
+    .contact{
+        display: flex;
+
+        p{
+            display: flex;
+            align-items: center;
+            margin: 0 10px;
+            a{
+                color: black;
+            }
+            a:hover{
+                color: #019064;
+            }
+        }
+        img{
+            width: 20px;
+            margin:-3px 10px 0 0;
+        }
+    }
+    .register{
+        a{
+            transition: all .3s ease;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .signIN{
+            color: white;
+            background-color: #019064;
+            border: 1px solid #019064;
+            margin: 0 15px 0 0 ;
+        }
+        .signIN:hover{
+            color: #019064;
+            background-color: white;
+            
+        }
+
+        .signUP{
+            color:#019064;
+            background-color: white;
+            border: 1px solid #019064;
+        }
+        .signUP:hover{
+            color:white;
+            background-color: #019064;
+        }
+    }
+
+
+
+    .register a{
+        color: #019064;
+    }
+}
