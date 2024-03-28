@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     transition: all .1s ease-in-out;
+    margin: 20px 0;
     .contact{
         display: flex;
 
@@ -31,23 +32,27 @@
         .signIN{
             color: white;
             background-color: #019064;
-            border: 1px solid #019064;
+            border: 1px solid #019065a8;
             margin: 0 15px 0 0 ;
         }
         .signIN:hover{
             color: #019064;
             background-color: white;
-            
+            box-shadow: 0 0 5px 1px rgba(66, 194, 66, 0.541);
         }
 
         .signUP{
             color:#019064;
             background-color: white;
-            border: 1px solid #019064;
+            border: 1px solid #01906585;
+            box-shadow: 0 0 8px 1px rgba(66, 194, 66, 0.521);
+
         }
         .signUP:hover{
             color:white;
             background-color: #019064;
+            box-shadow: 0 0 0px 0px rgba(66, 194, 66, 0.541);
+
         }
     }
 
@@ -57,3 +62,76 @@
         color: #019064;
     }
 }
+
+.header_two{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    align-items: center;
+    .logo{
+        display: flex;
+        align-items: center;
+        img{
+            width: 60px;
+            height: 60px;
+            margin-top: -7px;
+        }
+        p{
+            font-size: 28px;
+            font-weight: 600;
+            width:  120px;
+            line-height: 30px;
+            margin-left: 15px;
+        }
+    }
+    .search{
+        border:1px solid rgba(177, 177, 177, 0.671);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        height: 40px;
+        margin-bottom: -10px;
+        box-shadow: 0 0 8px 1px rgba(128, 128, 128, 0.233);
+        img{
+            width: 22px;
+            padding:0px 8px 0 0;
+            margin-top: -3px;
+        }
+
+        input{
+            border: none;
+            width: 500px;
+            outline: none;
+            font-size: 18px;
+        }
+    }
+    .basket{
+        transition: all .2s ease-in-out;
+        border: 1px solid #01906557;
+        padding: 10px 20px;
+        border-radius: 5px;
+        color:#019064;
+        box-shadow: 0 0 10px 0px rgba(66, 194, 66, 0.527);
+        svg{
+            width: 25px;
+            margin: 0 10px 0 0px;
+        }
+        a{
+            display: flex;
+            align-items: center;
+            color: #019064;
+            font-size: 19px;
+            
+        }
+        &:hover{
+            a{
+                color: white;
+
+            }
+            background-color: #019064;
+            box-shadow: 0 0 0px 0px rgb(66, 194, 66);
+        }
+    }
+}
+
